@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: hsla(211, 45%, 89%, 1);
+  margin: 0;
+  height: 100%;
+  display: flex;
+  font-family: "Outfit", sans-serif;
+}
+
+#main_container {
+  background-color: hsla(0, 0%, 100%, 1);
+  /* border: 3px solid green; */
+  max-width: 320px;
+  padding: 16px;
+  border-radius: 20px;
+  text-align: center;
+  margin: auto;
+  font-family: inherit;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 24px;
+  padding: 0 16px; /*0px top and bottom. 16px left and right*/
+}
+
+p {
+  color: hsla(219, 15%, 55%, 1);
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0 16px;
+  padding: 0 16px; /*0px top and bottom. 16px left and right*/
+}
+
+.qr_code_image {
+  width: 100%;
+  border-radius: 20px;
+}
